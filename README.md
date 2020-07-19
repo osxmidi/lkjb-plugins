@@ -4,6 +4,10 @@ Rename the unzipped JUCE folder to JUCE and move it to the home folder
 
 Unzip this repository/clone inside the JUCE folder
 
+To make the Projucer change into ~/JUCE/extras/Projucer/Builds/LinuxMakefile then make CONFIG=Release
+
+Run the Projucer and load the jucer file in the unzipped folder and save the project
+
 Some libraries need to be preinstalled
 
 sudo apt-get -y install git pkg-config libfreetype6-dev libx11-dev libxinerama-dev libxrandr-dev libxcursor-dev mesa-common-dev libasound2-dev freeglut3-dev libxcomposite-dev libcurl4-gnutls-dev
