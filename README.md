@@ -34,7 +34,7 @@ sudo apt-get install lv2-dev or sudo pacman -Sy lv2 for Manjaro
 
 Make the Projucer as above and save the project as a vst2 (change from vst3 to vst2 in the Projucer settings).
 
-Unzip the plugin-name-lv2-make.zip file in the Builds/LinuxMakefile folder and copy the Makefile to the Builds/LinuxMakefile folder
+Unzip the plugin-name-lv2-make.zip file in the Builds/LinuxMakefile/lv2 folder and copy the Makefile to the Builds/LinuxMakefile folder
 
 cd into the Builds/LinuxMakefile folder
 
